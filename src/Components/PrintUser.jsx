@@ -8,9 +8,9 @@ const PrintUser = ({user}) => {
         <h2>Web Developer - Web Deigner</h2>
         <p>{user.bio}</p>
         <div className="socials">
-        <i className="fa-brands fa-square-facebook fa-xl"></i>
-        <i className="fa-brands fa-square-twitter fa-xl"></i>
-        <i className="fa-brands fa-google-plus-g fa-xl"></i>
+          <a href="#"><i className="fa-brands fa-square-facebook fa-xl"></i></a>
+          <a href="#"><i className="fa-brands fa-square-twitter fa-xl"></i></a>
+          <a href="#"><i className="fa-brands fa-google-plus-g fa-xl"></i></a>
         </div>
       </div>
       </>
